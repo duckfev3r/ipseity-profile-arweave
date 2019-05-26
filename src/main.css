@@ -1,0 +1,31 @@
+/* Fonts */
+
+@font-face {
+  font-family: 'Righteous';
+  src: local('Righteous-Regular'), url(assets/fonts/Righteous-Regular.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway-Regular'), url(assets/fonts/Raleway-Regular.ttf) format('ttf');
+}
+
+/* Document Typeography */
+
+h1, h2 {
+  color: rgba(0,0,0,0.8);
+  font-family: Righteous;
+  font-weight: 200;
+}
+
+h3, h4 {
+  color: rgba(0,0,0,0.8);
+  font-family: Raleway;
+  font-weight: 600;
+}
+
+p, em, li, body {
+  color: rgba(0,0,0,0.8);
+  font-family: Raleway;
+  font-size: 1.3em;
+}
