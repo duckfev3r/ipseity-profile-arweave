@@ -10,9 +10,25 @@
   src: local('Raleway-Regular'), url(assets/fonts/Raleway-Regular.ttf) format('ttf');
 }
 
+body {
+  background-color: #f4f4f4
+}
+
+
+p {
+  word-wrap: break-word !important;
+  word-break: break-word !important;
+  white-space: pre-wrap;
+}
+
+.profile-image-container {
+  min-width: 200px;
+  min-height: 200px;
+}
+
 /* Document Typeography */
 
-h1, h2 {
+/* h1, h2 {
   color: rgba(0,0,0,0.8);
   font-family: Righteous;
   font-weight: 200;
@@ -28,4 +44,4 @@ p, em, li, body {
   color: rgba(0,0,0,0.8);
   font-family: Raleway;
   font-size: 1.3em;
-}
+} */
